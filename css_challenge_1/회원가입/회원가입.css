@@ -1,0 +1,86 @@
+/* - 요구사항
+    - box-shadow
+    - placeholder 채우기
+    - 요소들을 수평&수직 정렬하기
+    - 다양한 선택자를 사용하기
+    */
+
+
+body{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 40px 0 60px 0;
+    margin: auto;
+    background-color: #a1fff1;
+    border-radius: 10px;
+    box-shadow:
+    5px 5px 0px 5px black,
+    15px 15px 0px 5px gray,
+    25px 25px 0px 5px whitesmoke,
+    35px 35px 0px 5px red;
+}
+h1 {
+    text-align: center;
+}
+
+
+input {
+    border: 2px relative black;
+    border-radius: 15px;
+  }
+  
+ .input-box {
+    align-self: center;
+    height: 30px;
+    width:  300px;
+    margin: 10px 0;
+  }
+    
+  .phone-into {
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    margin: 5px 0;
+  }
+  
+  .input-box2 {
+    height: 30px;
+    width: 70px;
+    margin: 0 5px;
+  }
+  
+  .Mob-verify {
+    display: flex;
+    justify-content: right;
+    width: 315px;
+    margin: 5px 5px;
+  }
+  
+  .auth-text {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  button {
+    border-radius: 5px;
+  }
+  
+  .select {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .sex {
+    margin: 10px 0;
+  }
+  
+  .submit {
+    height: 30px;
+    width: 300px;
+    background-color: white;
+  }

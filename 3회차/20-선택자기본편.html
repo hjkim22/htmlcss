@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>선택자 기본편</title>
+    <style>
+        h2, p, li{
+            color: yellow;
+        }
+        /*
+        *{
+            color: red;
+        }
+        /*
+        /*
+        선택자 우선순위: 쓰여진 순서랑 관계없이 적용되는 순위
+        1. 아이디 선택자
+        2. 클래스 선택자
+        3. 태그 선택자
+        */
+        /*
+        li{
+            color: blue;
+        }
+        .ball{
+            color: purple;
+        }
+        #running{
+            color: orange;
+        }
+        */
+    </style>
+</head>
+<body>
+    <h2>스포츠 종목</h2>
+    <p>다양한 종목이 존재</p>
+    <ul>
+        <li class="ball">축구</li>
+        <li class="ball">야구</li>
+        <li class="ball">농구</li>
+        <li id="running">육상</li>
+        <li id="swimming">수영</li>
+    </ul>
+</body>
+</html>

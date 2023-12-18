@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: skyblue
+}
+
+.snowman {
+    position: relative;
+}
+
+.hat {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    background-color: #000;
+    top: -20px;
+    left: 15px;
+    margin-bottom: 0;
+}
+
+.hat:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: #000;
+    top: -40px;
+    left: 20px;
+    margin-bottom: 0;
+}
+.face {
+    background-color: white;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0px;
+    margin: auto;
+    position: relative;
+}
+.eye1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 30px;
+    left: 30px;
+}
+.eye2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 30px;
+    left: 70px;
+}
+.mouse{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 10% 10% 40% 40% ;
+    top: 80px;
+    left: 40px;
+}
+
+.body {
+    background-color: white;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 0px;
+    margin: auto;
+    position: relative;
+}
+
+.button {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 100%;
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 54px;
+}
+
+.arm-left {
+    width: 80px;
+    height: 8px;
+    background-color: brown;
+    position: absolute;
+    top: 40px;
+    left: -60px;
+    transform: rotate(45deg);
+  }
+.arm-right {
+    width: 80px;
+    height: 8px;
+    background-color: brown;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    transform: rotate(135deg);
+  }
+
+.body2 {
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+@media screen and (max-width: 500px) {
+    body {
+    background-color: red;
+    
+    }
+}
+
+@media screen and (min-width: 501px) {
+    body {
+    background-color: orange;
+    
+    }
+}
+
+@media screen and (min-width: 701px) {
+    body {
+    background-color: yellow;
+    
+    }
+}
+
+@media screen and (min-width: 801px) {
+    body {
+    background-color: green;
+    
+    }
+}
+@media screen and (min-width: 901px) {
+    body {
+    background-color: blue;
+    
+    }
+}
+@media screen and (min-width: 1001px) {
+    body {
+    background-color: darkblue;
+    
+    }
+}
+@media screen and (min-width: 1101px) {
+    body {
+    background-color: purple;
+    
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: none;
+     
+    }
+}

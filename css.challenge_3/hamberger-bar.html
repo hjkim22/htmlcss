@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hamberger-bar.css">
+        <title>햄버거 바 만들기</title>
+    </head>
+    <body>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Wether</a>
+        <a href="#">Map</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+      </nav>
+
+      <script>
+        function myFunction() {
+            var x = document.querySelector("nav");
+            x.classList.toggle("responsive"); // toggle을 사용하여 클래스를 추가 및 제거
+        }
+    </script>
+
+</body>
+</html>

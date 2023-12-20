@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <link href="oz-homepage.css" rel="stylesheet">
+    <title>OZ코딩 홈페이지 만들기</title>
+</head>
+<body>
+    <section class="title">
+        <p class="title-text blink">🔥</p>
+        <p class="title-text">코린이 화이팅</p>
+        <p class="title-text blink">🔥</p>
+      </section>
+      <header class="header">
+        <a href="#" class="home">
+          <p class="home-text">OZ</p>
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <nav class="menu">
+          <div class="menu-text">python</div><hr>
+          <div class="menu-text">html</div><hr>
+          <div class="menu-text">css</div><hr>
+          <div class="menu-text">django</div><hr>
+          <div class="menu-text">aws</div>
+        </nav>
+        <nav class="tab">
+          <div class="tab-text">python</div>
+          <div class="tab-text">html</div>
+          <div class="tab-text">css</div>
+          <div class="tab-text">django</div>
+          <div class="tab-text">aws</div>
+        </nav>
+      </header>
+      <main>
+        <section class="content-container">
+          <p class="about-text">Let's</p>
+          <p class="content-text">OZ coding school</p>
+          <div class="btn-container">
+            <a href="https://ozcodingschool.com/" class="btn" target=_blank>
+              <p class="btn-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </p>
+              <p class="btn-title">lecture</p>
+              <p class="btn-desc">빠른 진행<br>시간 절약</p>
+            </a>
+            <a href="#" class="btn">
+              <p class="btn-icon">
+                <i class="fa-solid fa-pen"></i>
+              </p>
+              <p class="btn-title">learning</p>
+              <p class="btn-desc">강의 페이지 활용<br>편리한 실습</p>
+            </a>
+            <a href="#" class="btn">
+              <p class="btn-icon">
+                <i class="fa-solid fa-gamepad"></i>
+              </p>
+              <p class="btn-title">play ground</p>
+              <p class="btn-desc">제작한 도구로<br>반복 학습</p>
+            </a>
+          </div>
+        </section>
+      </main>
+      <script>
+        window.addEventListener("resize", function() {
+          input = document.getElementById('menu-btn');
+          input.checked = false;
+        })
+      </script>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>플렉스박스 레이아웃</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        ul{
+            display: flex;
+            padding: 0;
+            list-style-type: none;
+            height: 200px;
+
+            /*flex-direction: row ;
+            flex-wrap: nowrap;
+
+            flex-flow: row wrap;
+            justify-content: space-between;*/
+            align-items: center;
+        }
+        li{
+            background-color: tomato;
+        }
+        li:nth-child(2n){
+            background-color: green;
+        }
+        li:nth-child(2){
+            /* flex-grow: 1; */
+            /*flex-shrink: 2;*/
+        }
+        li:nth-child(4){
+            /* flex-grow: 2; */
+        }
+        li:nth-child(2n-1){
+            /* flex-basis: 200px; */
+            flex: 1 1 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>어제 온 도서</h2>
+    <ul>
+        <li>Django</li>
+        <li>AWS</li>
+        <li>FastAPI</li>
+        <li>javascript</li>
+        <li>git</li>
+    </ul>
+    
+</body>
+</html>
